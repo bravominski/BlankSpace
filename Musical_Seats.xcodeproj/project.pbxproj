@@ -8,12 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		83EFD98C1B85781900845618 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EFD98B1B85781900845618 /* AppDelegate.swift */; };
-		83EFD98E1B85781900845618 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EFD98D1B85781900845618 /* ViewController.swift */; };
+		83EFD98E1B85781900845618 /* chairViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EFD98D1B85781900845618 /* chairViewController.swift */; };
 		83EFD9911B85781900845618 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83EFD98F1B85781900845618 /* Main.storyboard */; };
 		83EFD9931B85781900845618 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83EFD9921B85781900845618 /* Assets.xcassets */; };
 		83EFD9961B85781900845618 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83EFD9941B85781900845618 /* LaunchScreen.storyboard */; };
 		83EFD9A11B85781900845618 /* Musical_SeatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EFD9A01B85781900845618 /* Musical_SeatsTests.swift */; };
 		83EFD9AC1B85781900845618 /* Musical_SeatsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EFD9AB1B85781900845618 /* Musical_SeatsUITests.swift */; };
+		83EFD9BA1B85785200845618 /* chair.png in Resources */ = {isa = PBXBuildFile; fileRef = 83EFD9B91B85785200845618 /* chair.png */; };
+		83EFD9BC1B857FD000845618 /* registerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EFD9BB1B857FD000845618 /* registerViewController.swift */; };
+		83EFD9FC1B85AAB400845618 /* shakeitoff.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83EFD9FB1B85AAB400845618 /* shakeitoff.mp3 */; };
+		83EFDA0B1B85C35200845618 /* SocketAckManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EFD9FE1B85C35200845618 /* SocketAckManager.swift */; };
+		83EFDA0C1B85C35200845618 /* SocketAnyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EFD9FF1B85C35200845618 /* SocketAnyEvent.swift */; };
+		83EFDA0D1B85C35200845618 /* SocketEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EFDA001B85C35200845618 /* SocketEngine.swift */; };
+		83EFDA0E1B85C35200845618 /* SocketEngineClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EFDA011B85C35200845618 /* SocketEngineClient.swift */; };
+		83EFDA0F1B85C35200845618 /* SocketEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EFDA021B85C35200845618 /* SocketEventHandler.swift */; };
+		83EFDA101B85C35200845618 /* SocketFixUTF8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EFDA031B85C35200845618 /* SocketFixUTF8.swift */; };
+		83EFDA111B85C35200845618 /* SocketIOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EFDA041B85C35200845618 /* SocketIOClient.swift */; };
+		83EFDA121B85C35200845618 /* SocketLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EFDA051B85C35200845618 /* SocketLogger.swift */; };
+		83EFDA131B85C35200845618 /* SocketPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EFDA061B85C35200845618 /* SocketPacket.swift */; };
+		83EFDA141B85C35200845618 /* SocketParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EFDA071B85C35200845618 /* SocketParser.swift */; };
+		83EFDA151B85C35200845618 /* SocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EFDA081B85C35200845618 /* SocketTypes.swift */; };
+		83EFDA161B85C35200845618 /* SwiftRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EFDA091B85C35200845618 /* SwiftRegex.swift */; };
+		83EFDA171B85C35200845618 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EFDA0A1B85C35200845618 /* WebSocket.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +52,7 @@
 /* Begin PBXFileReference section */
 		83EFD9881B85781900845618 /* Musical_Seats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Musical_Seats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83EFD98B1B85781900845618 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		83EFD98D1B85781900845618 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		83EFD98D1B85781900845618 /* chairViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chairViewController.swift; sourceTree = "<group>"; };
 		83EFD9901B85781900845618 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		83EFD9921B85781900845618 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83EFD9951B85781900845618 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +63,22 @@
 		83EFD9A71B85781900845618 /* Musical_SeatsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Musical_SeatsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83EFD9AB1B85781900845618 /* Musical_SeatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Musical_SeatsUITests.swift; sourceTree = "<group>"; };
 		83EFD9AD1B85781900845618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83EFD9B91B85785200845618 /* chair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chair.png; path = ../../../chair.png; sourceTree = "<group>"; };
+		83EFD9BB1B857FD000845618 /* registerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = registerViewController.swift; sourceTree = "<group>"; };
+		83EFD9FB1B85AAB400845618 /* shakeitoff.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = shakeitoff.mp3; path = ../../../shakeitoff.mp3; sourceTree = "<group>"; };
+		83EFD9FE1B85C35200845618 /* SocketAckManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketAckManager.swift; path = ../../../../Downloads/SocketIOClientSwift/SocketAckManager.swift; sourceTree = "<group>"; };
+		83EFD9FF1B85C35200845618 /* SocketAnyEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketAnyEvent.swift; path = ../../../../Downloads/SocketIOClientSwift/SocketAnyEvent.swift; sourceTree = "<group>"; };
+		83EFDA001B85C35200845618 /* SocketEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketEngine.swift; path = ../../../../Downloads/SocketIOClientSwift/SocketEngine.swift; sourceTree = "<group>"; };
+		83EFDA011B85C35200845618 /* SocketEngineClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketEngineClient.swift; path = ../../../../Downloads/SocketIOClientSwift/SocketEngineClient.swift; sourceTree = "<group>"; };
+		83EFDA021B85C35200845618 /* SocketEventHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketEventHandler.swift; path = ../../../../Downloads/SocketIOClientSwift/SocketEventHandler.swift; sourceTree = "<group>"; };
+		83EFDA031B85C35200845618 /* SocketFixUTF8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketFixUTF8.swift; path = ../../../../Downloads/SocketIOClientSwift/SocketFixUTF8.swift; sourceTree = "<group>"; };
+		83EFDA041B85C35200845618 /* SocketIOClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketIOClient.swift; path = ../../../../Downloads/SocketIOClientSwift/SocketIOClient.swift; sourceTree = "<group>"; };
+		83EFDA051B85C35200845618 /* SocketLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketLogger.swift; path = ../../../../Downloads/SocketIOClientSwift/SocketLogger.swift; sourceTree = "<group>"; };
+		83EFDA061B85C35200845618 /* SocketPacket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketPacket.swift; path = ../../../../Downloads/SocketIOClientSwift/SocketPacket.swift; sourceTree = "<group>"; };
+		83EFDA071B85C35200845618 /* SocketParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketParser.swift; path = ../../../../Downloads/SocketIOClientSwift/SocketParser.swift; sourceTree = "<group>"; };
+		83EFDA081B85C35200845618 /* SocketTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketTypes.swift; path = ../../../../Downloads/SocketIOClientSwift/SocketTypes.swift; sourceTree = "<group>"; };
+		83EFDA091B85C35200845618 /* SwiftRegex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftRegex.swift; path = ../../../../Downloads/SocketIOClientSwift/SwiftRegex.swift; sourceTree = "<group>"; };
+		83EFDA0A1B85C35200845618 /* WebSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = ../../../../Downloads/SocketIOClientSwift/WebSocket.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +129,16 @@
 		83EFD98A1B85781900845618 /* Musical_Seats */ = {
 			isa = PBXGroup;
 			children = (
+				83EFD9FB1B85AAB400845618 /* shakeitoff.mp3 */,
+				83EFD9B91B85785200845618 /* chair.png */,
 				83EFD98B1B85781900845618 /* AppDelegate.swift */,
-				83EFD98D1B85781900845618 /* ViewController.swift */,
+				83EFD98D1B85781900845618 /* chairViewController.swift */,
+				83EFD9FD1B85C30200845618 /* SocketIO */,
 				83EFD98F1B85781900845618 /* Main.storyboard */,
 				83EFD9921B85781900845618 /* Assets.xcassets */,
 				83EFD9941B85781900845618 /* LaunchScreen.storyboard */,
 				83EFD9971B85781900845618 /* Info.plist */,
+				83EFD9BB1B857FD000845618 /* registerViewController.swift */,
 			);
 			path = Musical_Seats;
 			sourceTree = "<group>";
@@ -123,6 +159,26 @@
 				83EFD9AD1B85781900845618 /* Info.plist */,
 			);
 			path = Musical_SeatsUITests;
+			sourceTree = "<group>";
+		};
+		83EFD9FD1B85C30200845618 /* SocketIO */ = {
+			isa = PBXGroup;
+			children = (
+				83EFD9FE1B85C35200845618 /* SocketAckManager.swift */,
+				83EFD9FF1B85C35200845618 /* SocketAnyEvent.swift */,
+				83EFDA001B85C35200845618 /* SocketEngine.swift */,
+				83EFDA011B85C35200845618 /* SocketEngineClient.swift */,
+				83EFDA021B85C35200845618 /* SocketEventHandler.swift */,
+				83EFDA031B85C35200845618 /* SocketFixUTF8.swift */,
+				83EFDA041B85C35200845618 /* SocketIOClient.swift */,
+				83EFDA051B85C35200845618 /* SocketLogger.swift */,
+				83EFDA061B85C35200845618 /* SocketPacket.swift */,
+				83EFDA071B85C35200845618 /* SocketParser.swift */,
+				83EFDA081B85C35200845618 /* SocketTypes.swift */,
+				83EFDA091B85C35200845618 /* SwiftRegex.swift */,
+				83EFDA0A1B85C35200845618 /* WebSocket.swift */,
+			);
+			name = SocketIO;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +285,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				83EFD9961B85781900845618 /* LaunchScreen.storyboard in Resources */,
+				83EFD9FC1B85AAB400845618 /* shakeitoff.mp3 in Resources */,
 				83EFD9931B85781900845618 /* Assets.xcassets in Resources */,
 				83EFD9911B85781900845618 /* Main.storyboard in Resources */,
+				83EFD9BA1B85785200845618 /* chair.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,7 +313,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83EFD98E1B85781900845618 /* ViewController.swift in Sources */,
+				83EFDA141B85C35200845618 /* SocketParser.swift in Sources */,
+				83EFDA171B85C35200845618 /* WebSocket.swift in Sources */,
+				83EFDA101B85C35200845618 /* SocketFixUTF8.swift in Sources */,
+				83EFDA161B85C35200845618 /* SwiftRegex.swift in Sources */,
+				83EFDA0E1B85C35200845618 /* SocketEngineClient.swift in Sources */,
+				83EFDA0D1B85C35200845618 /* SocketEngine.swift in Sources */,
+				83EFDA151B85C35200845618 /* SocketTypes.swift in Sources */,
+				83EFDA0C1B85C35200845618 /* SocketAnyEvent.swift in Sources */,
+				83EFDA0B1B85C35200845618 /* SocketAckManager.swift in Sources */,
+				83EFDA111B85C35200845618 /* SocketIOClient.swift in Sources */,
+				83EFDA0F1B85C35200845618 /* SocketEventHandler.swift in Sources */,
+				83EFD9BC1B857FD000845618 /* registerViewController.swift in Sources */,
+				83EFD98E1B85781900845618 /* chairViewController.swift in Sources */,
+				83EFDA121B85C35200845618 /* SocketLogger.swift in Sources */,
+				83EFDA131B85C35200845618 /* SocketPacket.swift in Sources */,
 				83EFD98C1B85781900845618 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,6 +471,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Musical_Seats/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "NS.Musical-Seats";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -410,6 +483,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Musical_Seats/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "NS.Musical-Seats";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -483,6 +557,7 @@
 				83EFD9B21B85781900845618 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83EFD9B31B85781900845618 /* Build configuration list for PBXNativeTarget "Musical_SeatsTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +566,7 @@
 				83EFD9B51B85781900845618 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83EFD9B61B85781900845618 /* Build configuration list for PBXNativeTarget "Musical_SeatsUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +575,7 @@
 				83EFD9B81B85781900845618 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
