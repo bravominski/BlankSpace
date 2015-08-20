@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		80ED63C31B85E37E00AD0042 /* chair.png in Resources */ = {isa = PBXBuildFile; fileRef = 80ED63C21B85E37E00AD0042 /* chair.png */; };
+		80CE155E1B863AFD00EAAA40 /* chair.png in Resources */ = {isa = PBXBuildFile; fileRef = 80CE155D1B863AFD00EAAA40 /* chair.png */; };
+		80CE15601B863D2200EAAA40 /* blankspace.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 80CE155F1B863D2200EAAA40 /* blankspace.mp3 */; };
 		80ED63C51B85E41C00AD0042 /* shakeitoff.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 80ED63C41B85E41C00AD0042 /* shakeitoff.mp3 */; };
 		80ED63D31B85E4A700AD0042 /* SocketAckManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ED63C61B85E4A700AD0042 /* SocketAckManager.swift */; };
 		80ED63D41B85E4A700AD0042 /* SocketAnyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ED63C71B85E4A700AD0042 /* SocketAnyEvent.swift */; };
@@ -53,7 +54,8 @@
 		8081C11D1B85EABF00C52317 /* Musical_Seats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Musical_Seats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8081C11E1B85EABF00C52317 /* Musical_SeatsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Musical_SeatsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8081C11F1B85EABF00C52317 /* Musical_SeatsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Musical_SeatsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		80ED63C21B85E37E00AD0042 /* chair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chair.png; path = ../../../../../../../../../var/folders/k7/j95nzb1d26vcmh1g7ch0jd3c0000gn/T/com.apple.iChat/Messages/Transfers/chair.png; sourceTree = "<group>"; };
+		80CE155D1B863AFD00EAAA40 /* chair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chair.png; path = ../../../../../../../../../var/folders/k7/j95nzb1d26vcmh1g7ch0jd3c0000gn/T/com.apple.iChat/Messages/Transfers/chair.png; sourceTree = "<group>"; };
+		80CE155F1B863D2200EAAA40 /* blankspace.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = blankspace.mp3; path = ../../../../../../../../../var/folders/k7/j95nzb1d26vcmh1g7ch0jd3c0000gn/T/com.apple.iChat/Messages/Transfers/blankspace.mp3; sourceTree = "<group>"; };
 		80ED63C41B85E41C00AD0042 /* shakeitoff.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = shakeitoff.mp3; path = ../../../../../../../Downloads/shakeitoff.mp3; sourceTree = "<group>"; };
 		80ED63C61B85E4A700AD0042 /* SocketAckManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketAckManager.swift; path = ../../../../../../../Downloads/SocketIOClientSwift/SocketAckManager.swift; sourceTree = "<group>"; };
 		80ED63C71B85E4A700AD0042 /* SocketAnyEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketAnyEvent.swift; path = ../../../../../../../Downloads/SocketIOClientSwift/SocketAnyEvent.swift; sourceTree = "<group>"; };
@@ -122,8 +124,9 @@
 			isa = PBXGroup;
 			children = (
 				80ED63C41B85E41C00AD0042 /* shakeitoff.mp3 */,
+				80CE155F1B863D2200EAAA40 /* blankspace.mp3 */,
 				83EFD98B1B85781900845618 /* AppDelegate.swift */,
-				80ED63C21B85E37E00AD0042 /* chair.png */,
+				80CE155D1B863AFD00EAAA40 /* chair.png */,
 				83EFD98D1B85781900845618 /* chairViewController.swift */,
 				83EFD9FD1B85C30200845618 /* SocketIO */,
 				83EFD98F1B85781900845618 /* Main.storyboard */,
@@ -240,6 +243,7 @@
 				TargetAttributes = {
 					83EFD9871B85781900845618 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = D7PGG9XNH6;
 					};
 					83EFD99B1B85781900845618 = {
 						CreatedOnToolsVersion = 7.0;
@@ -276,11 +280,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80CE15601B863D2200EAAA40 /* blankspace.mp3 in Resources */,
 				83EFD9961B85781900845618 /* LaunchScreen.storyboard in Resources */,
 				80ED63C51B85E41C00AD0042 /* shakeitoff.mp3 in Resources */,
+				80CE155E1B863AFD00EAAA40 /* chair.png in Resources */,
 				83EFD9931B85781900845618 /* Assets.xcassets in Resources */,
 				83EFD9911B85781900845618 /* Main.storyboard in Resources */,
-				80ED63C31B85E37E00AD0042 /* chair.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,11 +467,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Musical_Seats/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "NS.Musical-Seats";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -474,11 +482,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Musical_Seats/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "NS.Musical-Seats";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

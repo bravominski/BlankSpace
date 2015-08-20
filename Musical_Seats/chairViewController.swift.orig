@@ -16,7 +16,7 @@ class chairViewController: UIViewController {
     var volume: Float = 0.0
     
     let socket = SocketIOClient(socketURL: "192.168.1.111:6789")
-    var name = ""
+    var name = "minsu"
     var userCanClick = false
     var arr = [0,0,0,0,0,0,0,0,0,0,0,0]
     var playerlist = [String]()
@@ -26,7 +26,7 @@ class chairViewController: UIViewController {
         playSong()
         
         hideAll()
-        print(playerlist)
+        
         for (var i = 0; i < playerlist.count-1; i++)
         {
             chairCollection[i].hidden = false
@@ -90,15 +90,15 @@ class chairViewController: UIViewController {
     @IBAction func chairButton(sender: UIButton) {
         print(sender.tag)
         
-        if userCanClick
-        {
+//        if userCanClick
+//        {
             if arr[sender.tag] == 1 {
                 let info = ["name": name, "chairNumber": String(sender.tag)]
                 socket.emit("chairClicked", info)
             
                 userCanClick = false
             }
-        }
+//        }
     }
     
     
@@ -106,7 +106,7 @@ class chairViewController: UIViewController {
     func playSong() {
         //////start song ////////////////
     
-        let audioFilePath1 = NSBundle.mainBundle().pathForResource("blankspace", ofType: "mp3")
+        let audioFilePath1 = NSBundle.mainBundle().pathForResource("shakeitoff", ofType: "mp3")
     
         if audioFilePath1 != nil {
             
@@ -124,37 +124,36 @@ class chairViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let defaults = NSUserDefaults.standardUserDefaults()
-        name = defaults.stringForKey("userName")!
+        
         socket.connect()
+        
+        
         
         socket.on("connect") { data, ack in
             print("iOS::WE ARE USING SOCKETS!")
 //            if let d = data {
 //                self.playerlist = d[0] as! [String]
 //            }
-            self.socket.emit("userList")
         }
         
-        
-        
-        socket.on("userList"){ data, ack in
-            print("player lists delivered : ")
-            print(data)
-            if let d = data{
+        socket.on("currentPlayers") { data, ack in
+            print("current players list delivered")
+            if let d = data {
                 self.playerlist = d[0] as! [String]
             }
         }
         
         socket.on("newUser"){ data, ack in
-            print("player lists delivered : ")
-            print(data)
+<<<<<<< HEAD
+            
+=======
+>>>>>>> 76aa49822dc32675fc58be6fa9977d9c7ea97ebd
             if let d = data{
                 self.playerlist = d[0] as! [String]
             }
         }
         
-        socket.on("startMusic"){data, ack in	
+        socket.on("startMusic"){data, ack in
             self.playMusic()
             print("music started")
         }
