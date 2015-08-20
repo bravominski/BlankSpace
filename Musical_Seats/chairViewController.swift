@@ -16,11 +16,10 @@ class chairViewController: UIViewController {
     var volume: Float = 0.0
     
     let socket = SocketIOClient(socketURL: "192.168.1.111:6789")
-    var name = "alex"
+    var name = "minsu"
     var userCanClick = false
     var arr = [0,0,0,0,0,0,0,0,0,0,0,0]
-    var playerlist = ["Minsu", "Jimmy", "Andrew", "Jo", "Oscar", "Joy", "Brian", "Kyle", "Tuyen",
-        "Jimmy", "alex", "steve"]
+    var playerlist = [String]()
     
     func playMusic(){
         print("play Music")
@@ -135,8 +134,14 @@ class chairViewController: UIViewController {
             print("iOS::WE ARE USING SOCKETS!")
         }
         
+        socket.on("currentPlayers") { data, ack in
+            print("current players list delivered")
+            if let d = data {
+                self.playerlist = d[0] as! [String]
+            }
+        }
+        
         socket.on("newUser"){ data, ack in
-            
             
             if let d = data{
                 self.playerlist = d[0] as! [String]
@@ -160,7 +165,7 @@ class chairViewController: UIViewController {
             }
         }
         
-        socket.on("results"){data, ack in
+        socket.on("results") {data, ack in
             if let d = data{
                 self.playerlist = d[0] as! [String]
                 

@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80ED63C31B85E37E00AD0042 /* chair.png in Resources */ = {isa = PBXBuildFile; fileRef = 80ED63C21B85E37E00AD0042 /* chair.png */; };
+		80ED63C51B85E41C00AD0042 /* shakeitoff.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 80ED63C41B85E41C00AD0042 /* shakeitoff.mp3 */; };
+		80ED63D31B85E4A700AD0042 /* SocketAckManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ED63C61B85E4A700AD0042 /* SocketAckManager.swift */; };
+		80ED63D41B85E4A700AD0042 /* SocketAnyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ED63C71B85E4A700AD0042 /* SocketAnyEvent.swift */; };
+		80ED63D51B85E4A700AD0042 /* SocketEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ED63C81B85E4A700AD0042 /* SocketEngine.swift */; };
+		80ED63D61B85E4A700AD0042 /* SocketEngineClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ED63C91B85E4A700AD0042 /* SocketEngineClient.swift */; };
+		80ED63D71B85E4A700AD0042 /* SocketEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ED63CA1B85E4A700AD0042 /* SocketEventHandler.swift */; };
+		80ED63D81B85E4A700AD0042 /* SocketFixUTF8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ED63CB1B85E4A700AD0042 /* SocketFixUTF8.swift */; };
+		80ED63D91B85E4A700AD0042 /* SocketIOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ED63CC1B85E4A700AD0042 /* SocketIOClient.swift */; };
+		80ED63DA1B85E4A700AD0042 /* SocketLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ED63CD1B85E4A700AD0042 /* SocketLogger.swift */; };
+		80ED63DB1B85E4A700AD0042 /* SocketPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ED63CE1B85E4A700AD0042 /* SocketPacket.swift */; };
+		80ED63DC1B85E4A700AD0042 /* SocketParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ED63CF1B85E4A700AD0042 /* SocketParser.swift */; };
+		80ED63DD1B85E4A700AD0042 /* SocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ED63D01B85E4A700AD0042 /* SocketTypes.swift */; };
+		80ED63DE1B85E4A700AD0042 /* SwiftRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ED63D11B85E4A700AD0042 /* SwiftRegex.swift */; };
+		80ED63DF1B85E4A700AD0042 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ED63D21B85E4A700AD0042 /* WebSocket.swift */; };
 		83EFD98C1B85781900845618 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EFD98B1B85781900845618 /* AppDelegate.swift */; };
 		83EFD98E1B85781900845618 /* chairViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EFD98D1B85781900845618 /* chairViewController.swift */; };
 		83EFD9911B85781900845618 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83EFD98F1B85781900845618 /* Main.storyboard */; };
@@ -14,22 +29,7 @@
 		83EFD9961B85781900845618 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83EFD9941B85781900845618 /* LaunchScreen.storyboard */; };
 		83EFD9A11B85781900845618 /* Musical_SeatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EFD9A01B85781900845618 /* Musical_SeatsTests.swift */; };
 		83EFD9AC1B85781900845618 /* Musical_SeatsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EFD9AB1B85781900845618 /* Musical_SeatsUITests.swift */; };
-		83EFD9BA1B85785200845618 /* chair.png in Resources */ = {isa = PBXBuildFile; fileRef = 83EFD9B91B85785200845618 /* chair.png */; };
 		83EFD9BC1B857FD000845618 /* registerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EFD9BB1B857FD000845618 /* registerViewController.swift */; };
-		83EFD9FC1B85AAB400845618 /* shakeitoff.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83EFD9FB1B85AAB400845618 /* shakeitoff.mp3 */; };
-		83EFDA0B1B85C35200845618 /* SocketAckManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EFD9FE1B85C35200845618 /* SocketAckManager.swift */; };
-		83EFDA0C1B85C35200845618 /* SocketAnyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EFD9FF1B85C35200845618 /* SocketAnyEvent.swift */; };
-		83EFDA0D1B85C35200845618 /* SocketEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EFDA001B85C35200845618 /* SocketEngine.swift */; };
-		83EFDA0E1B85C35200845618 /* SocketEngineClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EFDA011B85C35200845618 /* SocketEngineClient.swift */; };
-		83EFDA0F1B85C35200845618 /* SocketEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EFDA021B85C35200845618 /* SocketEventHandler.swift */; };
-		83EFDA101B85C35200845618 /* SocketFixUTF8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EFDA031B85C35200845618 /* SocketFixUTF8.swift */; };
-		83EFDA111B85C35200845618 /* SocketIOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EFDA041B85C35200845618 /* SocketIOClient.swift */; };
-		83EFDA121B85C35200845618 /* SocketLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EFDA051B85C35200845618 /* SocketLogger.swift */; };
-		83EFDA131B85C35200845618 /* SocketPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EFDA061B85C35200845618 /* SocketPacket.swift */; };
-		83EFDA141B85C35200845618 /* SocketParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EFDA071B85C35200845618 /* SocketParser.swift */; };
-		83EFDA151B85C35200845618 /* SocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EFDA081B85C35200845618 /* SocketTypes.swift */; };
-		83EFDA161B85C35200845618 /* SwiftRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EFDA091B85C35200845618 /* SwiftRegex.swift */; };
-		83EFDA171B85C35200845618 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EFDA0A1B85C35200845618 /* WebSocket.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,35 +50,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		83EFD9881B85781900845618 /* Musical_Seats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Musical_Seats.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8081C11D1B85EABF00C52317 /* Musical_Seats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Musical_Seats.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8081C11E1B85EABF00C52317 /* Musical_SeatsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Musical_SeatsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8081C11F1B85EABF00C52317 /* Musical_SeatsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Musical_SeatsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80ED63C21B85E37E00AD0042 /* chair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chair.png; path = ../../../../../../../../../var/folders/k7/j95nzb1d26vcmh1g7ch0jd3c0000gn/T/com.apple.iChat/Messages/Transfers/chair.png; sourceTree = "<group>"; };
+		80ED63C41B85E41C00AD0042 /* shakeitoff.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = shakeitoff.mp3; path = ../../../../../../../Downloads/shakeitoff.mp3; sourceTree = "<group>"; };
+		80ED63C61B85E4A700AD0042 /* SocketAckManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketAckManager.swift; path = ../../../../../../../Downloads/SocketIOClientSwift/SocketAckManager.swift; sourceTree = "<group>"; };
+		80ED63C71B85E4A700AD0042 /* SocketAnyEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketAnyEvent.swift; path = ../../../../../../../Downloads/SocketIOClientSwift/SocketAnyEvent.swift; sourceTree = "<group>"; };
+		80ED63C81B85E4A700AD0042 /* SocketEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketEngine.swift; path = ../../../../../../../Downloads/SocketIOClientSwift/SocketEngine.swift; sourceTree = "<group>"; };
+		80ED63C91B85E4A700AD0042 /* SocketEngineClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketEngineClient.swift; path = ../../../../../../../Downloads/SocketIOClientSwift/SocketEngineClient.swift; sourceTree = "<group>"; };
+		80ED63CA1B85E4A700AD0042 /* SocketEventHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketEventHandler.swift; path = ../../../../../../../Downloads/SocketIOClientSwift/SocketEventHandler.swift; sourceTree = "<group>"; };
+		80ED63CB1B85E4A700AD0042 /* SocketFixUTF8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketFixUTF8.swift; path = ../../../../../../../Downloads/SocketIOClientSwift/SocketFixUTF8.swift; sourceTree = "<group>"; };
+		80ED63CC1B85E4A700AD0042 /* SocketIOClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketIOClient.swift; path = ../../../../../../../Downloads/SocketIOClientSwift/SocketIOClient.swift; sourceTree = "<group>"; };
+		80ED63CD1B85E4A700AD0042 /* SocketLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketLogger.swift; path = ../../../../../../../Downloads/SocketIOClientSwift/SocketLogger.swift; sourceTree = "<group>"; };
+		80ED63CE1B85E4A700AD0042 /* SocketPacket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketPacket.swift; path = ../../../../../../../Downloads/SocketIOClientSwift/SocketPacket.swift; sourceTree = "<group>"; };
+		80ED63CF1B85E4A700AD0042 /* SocketParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketParser.swift; path = ../../../../../../../Downloads/SocketIOClientSwift/SocketParser.swift; sourceTree = "<group>"; };
+		80ED63D01B85E4A700AD0042 /* SocketTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketTypes.swift; path = ../../../../../../../Downloads/SocketIOClientSwift/SocketTypes.swift; sourceTree = "<group>"; };
+		80ED63D11B85E4A700AD0042 /* SwiftRegex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftRegex.swift; path = ../../../../../../../Downloads/SocketIOClientSwift/SwiftRegex.swift; sourceTree = "<group>"; };
+		80ED63D21B85E4A700AD0042 /* WebSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = ../../../../../../../Downloads/SocketIOClientSwift/WebSocket.swift; sourceTree = "<group>"; };
 		83EFD98B1B85781900845618 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83EFD98D1B85781900845618 /* chairViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chairViewController.swift; sourceTree = "<group>"; };
 		83EFD9901B85781900845618 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		83EFD9921B85781900845618 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83EFD9951B85781900845618 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83EFD9971B85781900845618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83EFD99C1B85781900845618 /* Musical_SeatsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Musical_SeatsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83EFD9A01B85781900845618 /* Musical_SeatsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Musical_SeatsTests.swift; sourceTree = "<group>"; };
 		83EFD9A21B85781900845618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83EFD9A71B85781900845618 /* Musical_SeatsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Musical_SeatsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83EFD9AB1B85781900845618 /* Musical_SeatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Musical_SeatsUITests.swift; sourceTree = "<group>"; };
 		83EFD9AD1B85781900845618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83EFD9B91B85785200845618 /* chair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chair.png; path = ../../../chair.png; sourceTree = "<group>"; };
 		83EFD9BB1B857FD000845618 /* registerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = registerViewController.swift; sourceTree = "<group>"; };
-		83EFD9FB1B85AAB400845618 /* shakeitoff.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = shakeitoff.mp3; path = ../../../shakeitoff.mp3; sourceTree = "<group>"; };
-		83EFD9FE1B85C35200845618 /* SocketAckManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketAckManager.swift; path = ../../../../Downloads/SocketIOClientSwift/SocketAckManager.swift; sourceTree = "<group>"; };
-		83EFD9FF1B85C35200845618 /* SocketAnyEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketAnyEvent.swift; path = ../../../../Downloads/SocketIOClientSwift/SocketAnyEvent.swift; sourceTree = "<group>"; };
-		83EFDA001B85C35200845618 /* SocketEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketEngine.swift; path = ../../../../Downloads/SocketIOClientSwift/SocketEngine.swift; sourceTree = "<group>"; };
-		83EFDA011B85C35200845618 /* SocketEngineClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketEngineClient.swift; path = ../../../../Downloads/SocketIOClientSwift/SocketEngineClient.swift; sourceTree = "<group>"; };
-		83EFDA021B85C35200845618 /* SocketEventHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketEventHandler.swift; path = ../../../../Downloads/SocketIOClientSwift/SocketEventHandler.swift; sourceTree = "<group>"; };
-		83EFDA031B85C35200845618 /* SocketFixUTF8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketFixUTF8.swift; path = ../../../../Downloads/SocketIOClientSwift/SocketFixUTF8.swift; sourceTree = "<group>"; };
-		83EFDA041B85C35200845618 /* SocketIOClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketIOClient.swift; path = ../../../../Downloads/SocketIOClientSwift/SocketIOClient.swift; sourceTree = "<group>"; };
-		83EFDA051B85C35200845618 /* SocketLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketLogger.swift; path = ../../../../Downloads/SocketIOClientSwift/SocketLogger.swift; sourceTree = "<group>"; };
-		83EFDA061B85C35200845618 /* SocketPacket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketPacket.swift; path = ../../../../Downloads/SocketIOClientSwift/SocketPacket.swift; sourceTree = "<group>"; };
-		83EFDA071B85C35200845618 /* SocketParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketParser.swift; path = ../../../../Downloads/SocketIOClientSwift/SocketParser.swift; sourceTree = "<group>"; };
-		83EFDA081B85C35200845618 /* SocketTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketTypes.swift; path = ../../../../Downloads/SocketIOClientSwift/SocketTypes.swift; sourceTree = "<group>"; };
-		83EFDA091B85C35200845618 /* SwiftRegex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftRegex.swift; path = ../../../../Downloads/SocketIOClientSwift/SwiftRegex.swift; sourceTree = "<group>"; };
-		83EFDA0A1B85C35200845618 /* WebSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = ../../../../Downloads/SocketIOClientSwift/WebSocket.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,26 +112,18 @@
 				83EFD98A1B85781900845618 /* Musical_Seats */,
 				83EFD99F1B85781900845618 /* Musical_SeatsTests */,
 				83EFD9AA1B85781900845618 /* Musical_SeatsUITests */,
-				83EFD9891B85781900845618 /* Products */,
+				8081C11D1B85EABF00C52317 /* Musical_Seats.app */,
+				8081C11E1B85EABF00C52317 /* Musical_SeatsTests.xctest */,
+				8081C11F1B85EABF00C52317 /* Musical_SeatsUITests.xctest */,
 			);
-			sourceTree = "<group>";
-		};
-		83EFD9891B85781900845618 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				83EFD9881B85781900845618 /* Musical_Seats.app */,
-				83EFD99C1B85781900845618 /* Musical_SeatsTests.xctest */,
-				83EFD9A71B85781900845618 /* Musical_SeatsUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		83EFD98A1B85781900845618 /* Musical_Seats */ = {
 			isa = PBXGroup;
 			children = (
-				83EFD9FB1B85AAB400845618 /* shakeitoff.mp3 */,
-				83EFD9B91B85785200845618 /* chair.png */,
+				80ED63C41B85E41C00AD0042 /* shakeitoff.mp3 */,
 				83EFD98B1B85781900845618 /* AppDelegate.swift */,
+				80ED63C21B85E37E00AD0042 /* chair.png */,
 				83EFD98D1B85781900845618 /* chairViewController.swift */,
 				83EFD9FD1B85C30200845618 /* SocketIO */,
 				83EFD98F1B85781900845618 /* Main.storyboard */,
@@ -164,19 +156,19 @@
 		83EFD9FD1B85C30200845618 /* SocketIO */ = {
 			isa = PBXGroup;
 			children = (
-				83EFD9FE1B85C35200845618 /* SocketAckManager.swift */,
-				83EFD9FF1B85C35200845618 /* SocketAnyEvent.swift */,
-				83EFDA001B85C35200845618 /* SocketEngine.swift */,
-				83EFDA011B85C35200845618 /* SocketEngineClient.swift */,
-				83EFDA021B85C35200845618 /* SocketEventHandler.swift */,
-				83EFDA031B85C35200845618 /* SocketFixUTF8.swift */,
-				83EFDA041B85C35200845618 /* SocketIOClient.swift */,
-				83EFDA051B85C35200845618 /* SocketLogger.swift */,
-				83EFDA061B85C35200845618 /* SocketPacket.swift */,
-				83EFDA071B85C35200845618 /* SocketParser.swift */,
-				83EFDA081B85C35200845618 /* SocketTypes.swift */,
-				83EFDA091B85C35200845618 /* SwiftRegex.swift */,
-				83EFDA0A1B85C35200845618 /* WebSocket.swift */,
+				80ED63C61B85E4A700AD0042 /* SocketAckManager.swift */,
+				80ED63C71B85E4A700AD0042 /* SocketAnyEvent.swift */,
+				80ED63C81B85E4A700AD0042 /* SocketEngine.swift */,
+				80ED63C91B85E4A700AD0042 /* SocketEngineClient.swift */,
+				80ED63CA1B85E4A700AD0042 /* SocketEventHandler.swift */,
+				80ED63CB1B85E4A700AD0042 /* SocketFixUTF8.swift */,
+				80ED63CC1B85E4A700AD0042 /* SocketIOClient.swift */,
+				80ED63CD1B85E4A700AD0042 /* SocketLogger.swift */,
+				80ED63CE1B85E4A700AD0042 /* SocketPacket.swift */,
+				80ED63CF1B85E4A700AD0042 /* SocketParser.swift */,
+				80ED63D01B85E4A700AD0042 /* SocketTypes.swift */,
+				80ED63D11B85E4A700AD0042 /* SwiftRegex.swift */,
+				80ED63D21B85E4A700AD0042 /* WebSocket.swift */,
 			);
 			name = SocketIO;
 			sourceTree = "<group>";
@@ -198,7 +190,7 @@
 			);
 			name = Musical_Seats;
 			productName = Musical_Seats;
-			productReference = 83EFD9881B85781900845618 /* Musical_Seats.app */;
+			productReference = 8081C11D1B85EABF00C52317 /* Musical_Seats.app */;
 			productType = "com.apple.product-type.application";
 		};
 		83EFD99B1B85781900845618 /* Musical_SeatsTests */ = {
@@ -216,7 +208,7 @@
 			);
 			name = Musical_SeatsTests;
 			productName = Musical_SeatsTests;
-			productReference = 83EFD99C1B85781900845618 /* Musical_SeatsTests.xctest */;
+			productReference = 8081C11E1B85EABF00C52317 /* Musical_SeatsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		83EFD9A61B85781900845618 /* Musical_SeatsUITests */ = {
@@ -234,7 +226,7 @@
 			);
 			name = Musical_SeatsUITests;
 			productName = Musical_SeatsUITests;
-			productReference = 83EFD9A71B85781900845618 /* Musical_SeatsUITests.xctest */;
+			productReference = 8081C11F1B85EABF00C52317 /* Musical_SeatsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -268,7 +260,7 @@
 				Base,
 			);
 			mainGroup = 83EFD97F1B85781900845618;
-			productRefGroup = 83EFD9891B85781900845618 /* Products */;
+			productRefGroup = 83EFD97F1B85781900845618;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -285,10 +277,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				83EFD9961B85781900845618 /* LaunchScreen.storyboard in Resources */,
-				83EFD9FC1B85AAB400845618 /* shakeitoff.mp3 in Resources */,
+				80ED63C51B85E41C00AD0042 /* shakeitoff.mp3 in Resources */,
 				83EFD9931B85781900845618 /* Assets.xcassets in Resources */,
 				83EFD9911B85781900845618 /* Main.storyboard in Resources */,
-				83EFD9BA1B85785200845618 /* chair.png in Resources */,
+				80ED63C31B85E37E00AD0042 /* chair.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,21 +305,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83EFDA141B85C35200845618 /* SocketParser.swift in Sources */,
-				83EFDA171B85C35200845618 /* WebSocket.swift in Sources */,
-				83EFDA101B85C35200845618 /* SocketFixUTF8.swift in Sources */,
-				83EFDA161B85C35200845618 /* SwiftRegex.swift in Sources */,
-				83EFDA0E1B85C35200845618 /* SocketEngineClient.swift in Sources */,
-				83EFDA0D1B85C35200845618 /* SocketEngine.swift in Sources */,
-				83EFDA151B85C35200845618 /* SocketTypes.swift in Sources */,
-				83EFDA0C1B85C35200845618 /* SocketAnyEvent.swift in Sources */,
-				83EFDA0B1B85C35200845618 /* SocketAckManager.swift in Sources */,
-				83EFDA111B85C35200845618 /* SocketIOClient.swift in Sources */,
-				83EFDA0F1B85C35200845618 /* SocketEventHandler.swift in Sources */,
+				80ED63DC1B85E4A700AD0042 /* SocketParser.swift in Sources */,
+				80ED63DF1B85E4A700AD0042 /* WebSocket.swift in Sources */,
+				80ED63D81B85E4A700AD0042 /* SocketFixUTF8.swift in Sources */,
+				80ED63DE1B85E4A700AD0042 /* SwiftRegex.swift in Sources */,
+				80ED63D61B85E4A700AD0042 /* SocketEngineClient.swift in Sources */,
+				80ED63D51B85E4A700AD0042 /* SocketEngine.swift in Sources */,
+				80ED63DD1B85E4A700AD0042 /* SocketTypes.swift in Sources */,
+				80ED63D41B85E4A700AD0042 /* SocketAnyEvent.swift in Sources */,
+				80ED63D31B85E4A700AD0042 /* SocketAckManager.swift in Sources */,
+				80ED63D91B85E4A700AD0042 /* SocketIOClient.swift in Sources */,
+				80ED63D71B85E4A700AD0042 /* SocketEventHandler.swift in Sources */,
 				83EFD9BC1B857FD000845618 /* registerViewController.swift in Sources */,
 				83EFD98E1B85781900845618 /* chairViewController.swift in Sources */,
-				83EFDA121B85C35200845618 /* SocketLogger.swift in Sources */,
-				83EFDA131B85C35200845618 /* SocketPacket.swift in Sources */,
+				80ED63DA1B85E4A700AD0042 /* SocketLogger.swift in Sources */,
+				80ED63DB1B85E4A700AD0042 /* SocketPacket.swift in Sources */,
 				83EFD98C1B85781900845618 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -471,7 +463,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Musical_Seats/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "NS.Musical-Seats";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -483,7 +475,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Musical_Seats/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "NS.Musical-Seats";
 				PRODUCT_NAME = "$(TARGET_NAME)";
