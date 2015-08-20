@@ -57,7 +57,7 @@ class chairViewController: UIViewController {
         
         ///stop music - pause///////////////////////////////////////////////////
         
-        
+        audioPlayer.pause()
         
         ////////////////////////////////////////////////////////////////////////
     }
@@ -105,10 +105,9 @@ class chairViewController: UIViewController {
 
     func playSong() {
         //////start song ////////////////
-        
+    
         let audioFilePath1 = NSBundle.mainBundle().pathForResource("shakeitoff", ofType: "mp3")
-        //"alarm" is the name of the mp3 file
-        
+    
         if audioFilePath1 != nil {
             
             let audioFileUrl1 = NSURL.fileURLWithPath(audioFilePath1!)
@@ -125,13 +124,14 @@ class chairViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-  
         
         socket.connect()
-        //updateTheView()
         
         socket.on("connect") { data, ack in
             print("iOS::WE ARE USING SOCKETS!")
+//            if let d = data {
+//                self.playerlist = d[0] as! [String]
+//            }
         }
         
         socket.on("currentPlayers") { data, ack in
@@ -142,13 +142,12 @@ class chairViewController: UIViewController {
         }
         
         socket.on("newUser"){ data, ack in
-            
             if let d = data{
                 self.playerlist = d[0] as! [String]
             }
         }
         
-        socket.on("startMusic"){data, ack in
+        socket.on("startMusic"){data, ack in	
             self.playMusic()
             print("music started")
         }
@@ -199,7 +198,7 @@ class chairViewController: UIViewController {
         
     }
 
-    override func didReceiveMemoryWarning() {
+    override func didReceiveMemoryWarning() {I
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }

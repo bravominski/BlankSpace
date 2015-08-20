@@ -42,10 +42,6 @@
                                     <action selector="registerButton:" destination="6Yi-1y-5uP" eventType="touchUpInside" id="qMp-33-8oc"/>
                                 </connections>
                             </button>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Lqr-za-UlF">
-                                <rect key="frame" x="20" y="207" width="560" height="269"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aoe-9M-Hd1">
                                 <rect key="frame" x="20" y="484" width="560" height="96"/>
                                 <constraints>
@@ -61,8 +57,6 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="bc5-9W-pzJ" firstAttribute="top" secondItem="RFk-hJ-91j" secondAttribute="bottom" constant="8" id="0Zj-Ql-P1H"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="Lqr-za-UlF" secondAttribute="leading" id="5oq-6r-89C"/>
-                            <constraint firstItem="Lqr-za-UlF" firstAttribute="top" secondItem="bc5-9W-pzJ" secondAttribute="bottom" constant="8" id="Hkk-bz-UFF"/>
                             <constraint firstAttribute="leadingMargin" secondItem="bc5-9W-pzJ" secondAttribute="leading" id="IQ6-nj-Mk7"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Ijx-YD-01z" secondAttribute="trailing" id="Jfr-hF-IDI"/>
                             <constraint firstAttribute="trailingMargin" secondItem="bc5-9W-pzJ" secondAttribute="trailing" id="Jm9-dX-osM"/>
@@ -73,13 +67,10 @@
                             <constraint firstAttribute="leadingMargin" secondItem="RFk-hJ-91j" secondAttribute="leading" id="phX-mg-7en"/>
                             <constraint firstItem="h5t-zv-GaX" firstAttribute="top" secondItem="aoe-9M-Hd1" secondAttribute="bottom" constant="20" id="ukp-OY-7Og"/>
                             <constraint firstAttribute="trailingMargin" secondItem="aoe-9M-Hd1" secondAttribute="trailing" id="wnp-cL-LNF"/>
-                            <constraint firstItem="aoe-9M-Hd1" firstAttribute="top" secondItem="Lqr-za-UlF" secondAttribute="bottom" constant="8" id="x3D-5o-h86"/>
                             <constraint firstAttribute="leadingMargin" secondItem="Ijx-YD-01z" secondAttribute="leading" id="yJG-IY-6RA"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Lqr-za-UlF" secondAttribute="trailing" id="z3q-UZ-bh8"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="tableView" destination="Lqr-za-UlF" id="0h4-o6-E6I"/>
                         <outlet property="textField" destination="RFk-hJ-91j" id="OV4-xZ-jKp"/>
                     </connections>
                 </viewController>
