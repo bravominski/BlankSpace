@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83EFD98C1B85781900845618 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EFD98B1B85781900845618 /* AppDelegate.swift */; };
+		83EFD98E1B85781900845618 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EFD98D1B85781900845618 /* ViewController.swift */; };
+		83EFD9911B85781900845618 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83EFD98F1B85781900845618 /* Main.storyboard */; };
+		83EFD9931B85781900845618 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83EFD9921B85781900845618 /* Assets.xcassets */; };
+		83EFD9961B85781900845618 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83EFD9941B85781900845618 /* LaunchScreen.storyboard */; };
+		83EFD9A11B85781900845618 /* Musical_SeatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EFD9A01B85781900845618 /* Musical_SeatsTests.swift */; };
+		83EFD9AC1B85781900845618 /* Musical_SeatsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EFD9AB1B85781900845618 /* Musical_SeatsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83EFD99D1B85781900845618 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83EFD9801B85781900845618 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83EFD9871B85781900845618;
+			remoteInfo = Musical_Seats;
+		};
+		83EFD9A81B85781900845618 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83EFD9801B85781900845618 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83EFD9871B85781900845618;
+			remoteInfo = Musical_Seats;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83EFD9881B85781900845618 /* Musical_Seats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Musical_Seats.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83EFD98B1B85781900845618 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83EFD98D1B85781900845618 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		83EFD9901B85781900845618 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83EFD9921B85781900845618 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83EFD9951B85781900845618 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83EFD9971B85781900845618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83EFD99C1B85781900845618 /* Musical_SeatsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Musical_SeatsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83EFD9A01B85781900845618 /* Musical_SeatsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Musical_SeatsTests.swift; sourceTree = "<group>"; };
+		83EFD9A21B85781900845618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83EFD9A71B85781900845618 /* Musical_SeatsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Musical_SeatsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83EFD9AB1B85781900845618 /* Musical_SeatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Musical_SeatsUITests.swift; sourceTree = "<group>"; };
+		83EFD9AD1B85781900845618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83EFD9851B85781900845618 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83EFD9991B85781900845618 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83EFD9A41B85781900845618 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83EFD97F1B85781900845618 = {
+			isa = PBXGroup;
+			children = (
+				83EFD98A1B85781900845618 /* Musical_Seats */,
+				83EFD99F1B85781900845618 /* Musical_SeatsTests */,
+				83EFD9AA1B85781900845618 /* Musical_SeatsUITests */,
+				83EFD9891B85781900845618 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83EFD9891B85781900845618 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83EFD9881B85781900845618 /* Musical_Seats.app */,
+				83EFD99C1B85781900845618 /* Musical_SeatsTests.xctest */,
+				83EFD9A71B85781900845618 /* Musical_SeatsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83EFD98A1B85781900845618 /* Musical_Seats */ = {
+			isa = PBXGroup;
+			children = (
+				83EFD98B1B85781900845618 /* AppDelegate.swift */,
+				83EFD98D1B85781900845618 /* ViewController.swift */,
+				83EFD98F1B85781900845618 /* Main.storyboard */,
+				83EFD9921B85781900845618 /* Assets.xcassets */,
+				83EFD9941B85781900845618 /* LaunchScreen.storyboard */,
+				83EFD9971B85781900845618 /* Info.plist */,
+			);
+			path = Musical_Seats;
+			sourceTree = "<group>";
+		};
+		83EFD99F1B85781900845618 /* Musical_SeatsTests */ = {
+			isa = PBXGroup;
+			children = (
+				83EFD9A01B85781900845618 /* Musical_SeatsTests.swift */,
+				83EFD9A21B85781900845618 /* Info.plist */,
+			);
+			path = Musical_SeatsTests;
+			sourceTree = "<group>";
+		};
+		83EFD9AA1B85781900845618 /* Musical_SeatsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				83EFD9AB1B85781900845618 /* Musical_SeatsUITests.swift */,
+				83EFD9AD1B85781900845618 /* Info.plist */,
+			);
+			path = Musical_SeatsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83EFD9871B85781900845618 /* Musical_Seats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83EFD9B01B85781900845618 /* Build configuration list for PBXNativeTarget "Musical_Seats" */;
+			buildPhases = (
+				83EFD9841B85781900845618 /* Sources */,
+				83EFD9851B85781900845618 /* Frameworks */,
+				83EFD9861B85781900845618 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Musical_Seats;
+			productName = Musical_Seats;
+			productReference = 83EFD9881B85781900845618 /* Musical_Seats.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83EFD99B1B85781900845618 /* Musical_SeatsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83EFD9B31B85781900845618 /* Build configuration list for PBXNativeTarget "Musical_SeatsTests" */;
+			buildPhases = (
+				83EFD9981B85781900845618 /* Sources */,
+				83EFD9991B85781900845618 /* Frameworks */,
+				83EFD99A1B85781900845618 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83EFD99E1B85781900845618 /* PBXTargetDependency */,
+			);
+			name = Musical_SeatsTests;
+			productName = Musical_SeatsTests;
+			productReference = 83EFD99C1B85781900845618 /* Musical_SeatsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83EFD9A61B85781900845618 /* Musical_SeatsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83EFD9B61B85781900845618 /* Build configuration list for PBXNativeTarget "Musical_SeatsUITests" */;
+			buildPhases = (
+				83EFD9A31B85781900845618 /* Sources */,
+				83EFD9A41B85781900845618 /* Frameworks */,
+				83EFD9A51B85781900845618 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83EFD9A91B85781900845618 /* PBXTargetDependency */,
+			);
+			name = Musical_SeatsUITests;
+			productName = Musical_SeatsUITests;
+			productReference = 83EFD9A71B85781900845618 /* Musical_SeatsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83EFD9801B85781900845618 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Steve T";
+				TargetAttributes = {
+					83EFD9871B85781900845618 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					83EFD99B1B85781900845618 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 83EFD9871B85781900845618;
+					};
+					83EFD9A61B85781900845618 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 83EFD9871B85781900845618;
+					};
+				};
+			};
+			buildConfigurationList = 83EFD9831B85781900845618 /* Build configuration list for PBXProject "Musical_Seats" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83EFD97F1B85781900845618;
+			productRefGroup = 83EFD9891B85781900845618 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83EFD9871B85781900845618 /* Musical_Seats */,
+				83EFD99B1B85781900845618 /* Musical_SeatsTests */,
+				83EFD9A61B85781900845618 /* Musical_SeatsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83EFD9861B85781900845618 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83EFD9961B85781900845618 /* LaunchScreen.storyboard in Resources */,
+				83EFD9931B85781900845618 /* Assets.xcassets in Resources */,
+				83EFD9911B85781900845618 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83EFD99A1B85781900845618 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83EFD9A51B85781900845618 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83EFD9841B85781900845618 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83EFD98E1B85781900845618 /* ViewController.swift in Sources */,
+				83EFD98C1B85781900845618 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83EFD9981B85781900845618 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83EFD9A11B85781900845618 /* Musical_SeatsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83EFD9A31B85781900845618 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83EFD9AC1B85781900845618 /* Musical_SeatsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83EFD99E1B85781900845618 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83EFD9871B85781900845618 /* Musical_Seats */;
+			targetProxy = 83EFD99D1B85781900845618 /* PBXContainerItemProxy */;
+		};
+		83EFD9A91B85781900845618 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83EFD9871B85781900845618 /* Musical_Seats */;
+			targetProxy = 83EFD9A81B85781900845618 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83EFD98F1B85781900845618 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83EFD9901B85781900845618 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83EFD9941B85781900845618 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83EFD9951B85781900845618 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83EFD9AE1B85781900845618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83EFD9AF1B85781900845618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83EFD9B11B85781900845618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Musical_Seats/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NS.Musical-Seats";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		83EFD9B21B85781900845618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Musical_Seats/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NS.Musical-Seats";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		83EFD9B41B85781900845618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Musical_SeatsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NS.Musical-SeatsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Musical_Seats.app/Musical_Seats";
+			};
+			name = Debug;
+		};
+		83EFD9B51B85781900845618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Musical_SeatsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NS.Musical-SeatsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Musical_Seats.app/Musical_Seats";
+			};
+			name = Release;
+		};
+		83EFD9B71B85781900845618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Musical_SeatsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NS.Musical-SeatsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Musical_Seats;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		83EFD9B81B85781900845618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Musical_SeatsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NS.Musical-SeatsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Musical_Seats;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83EFD9831B85781900845618 /* Build configuration list for PBXProject "Musical_Seats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83EFD9AE1B85781900845618 /* Debug */,
+				83EFD9AF1B85781900845618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83EFD9B01B85781900845618 /* Build configuration list for PBXNativeTarget "Musical_Seats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83EFD9B11B85781900845618 /* Debug */,
+				83EFD9B21B85781900845618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		83EFD9B31B85781900845618 /* Build configuration list for PBXNativeTarget "Musical_SeatsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83EFD9B41B85781900845618 /* Debug */,
+				83EFD9B51B85781900845618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		83EFD9B61B85781900845618 /* Build configuration list for PBXNativeTarget "Musical_SeatsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83EFD9B71B85781900845618 /* Debug */,
+				83EFD9B81B85781900845618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83EFD9801B85781900845618 /* Project object */;
+}
