@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8164.2" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="6Yi-1y-5uP">
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8135.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -178,6 +177,12 @@
                                     <action selector="chairButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zt8-nv-kKK"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JFc-xN-bBj">
+                                <rect key="frame" x="20" y="559.5" width="560" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -191,9 +196,11 @@
                             <constraint firstItem="vsa-gz-gnp" firstAttribute="height" secondItem="2vL-En-csG" secondAttribute="height" id="BCS-r7-Dyn"/>
                             <constraint firstItem="pWf-2v-52l" firstAttribute="leading" secondItem="bYt-8D-u7I" secondAttribute="trailing" constant="8" id="Cvv-mo-AgM"/>
                             <constraint firstItem="Bmh-HS-2r2" firstAttribute="top" secondItem="fxa-tl-5w4" secondAttribute="bottom" constant="8" id="DCu-HI-D26"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="JFc-xN-bBj" secondAttribute="bottom" constant="20" id="DG8-ap-hn7"/>
                             <constraint firstItem="bIn-0g-Ps4" firstAttribute="height" secondItem="yfP-iY-Buf" secondAttribute="height" id="DPF-Ik-NBf"/>
                             <constraint firstItem="2vL-En-csG" firstAttribute="height" secondItem="N15-Iu-5m0" secondAttribute="height" id="DS0-ut-Bqa"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="vsa-gz-gnp" secondAttribute="bottom" constant="108" id="DxD-wR-kt7"/>
+                            <constraint firstItem="JFc-xN-bBj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ExZ-UR-z7n"/>
                             <constraint firstItem="bYt-8D-u7I" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="GfU-6f-SX6"/>
                             <constraint firstAttribute="trailingMargin" secondItem="vsa-gz-gnp" secondAttribute="trailing" constant="4" id="Hbr-fi-Waa"/>
                             <constraint firstItem="ums-hs-pEd" firstAttribute="width" secondItem="4Th-5J-gFe" secondAttribute="width" id="Jdc-MK-PZ4"/>
@@ -224,6 +231,7 @@
                             <constraint firstItem="vsa-gz-gnp" firstAttribute="leading" secondItem="ums-hs-pEd" secondAttribute="trailing" constant="8" id="nwK-R9-CVS"/>
                             <constraint firstItem="bYt-8D-u7I" firstAttribute="width" secondItem="yfP-iY-Buf" secondAttribute="width" id="nzn-hg-EXI"/>
                             <constraint firstItem="yfP-iY-Buf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="qEE-7m-SyR"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="JFc-xN-bBj" secondAttribute="trailing" id="qJc-Xt-hq8"/>
                             <constraint firstItem="pWf-2v-52l" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="qXB-JW-Qx8"/>
                             <constraint firstItem="2vL-En-csG" firstAttribute="width" secondItem="N15-Iu-5m0" secondAttribute="width" id="qbK-x5-V4z"/>
                             <constraint firstItem="0eL-Fe-pTW" firstAttribute="width" secondItem="pWf-2v-52l" secondAttribute="width" id="qjs-yp-Rug"/>
@@ -236,6 +244,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="namesLabel" destination="JFc-xN-bBj" id="7zm-I2-PBh"/>
                         <outletCollection property="chairCollection" destination="bYt-8D-u7I" collectionClass="NSMutableArray" id="vYH-dW-Tbf"/>
                         <outletCollection property="chairCollection" destination="ums-hs-pEd" collectionClass="NSMutableArray" id="n38-t6-Hxr"/>
                         <outletCollection property="chairCollection" destination="N15-Iu-5m0" collectionClass="NSMutableArray" id="ZTq-dn-ezr"/>

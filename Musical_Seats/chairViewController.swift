@@ -12,10 +12,13 @@ import AVFoundation
 
 class chairViewController: UIViewController {
     
+    @IBOutlet weak var namesLabel: UILabel!
+    
     var audioPlayer:AVAudioPlayer!
     var volume: Float = 0.0
+    var playerString = ""
     
-    let socket = SocketIOClient(socketURL: "192.168.1.111:6789")
+    let socket = SocketIOClient(socketURL: "https://blooming-cliffs-5704.herokuapp.com/")
     var name = ""
     var userCanClick = false
     var arr = [0,0,0,0,0,0,0,0,0,0,0,0]
@@ -143,7 +146,15 @@ class chairViewController: UIViewController {
             print(data)
             if let d = data{
                 self.playerlist = d[0] as! [String]
+                self.playerString = ""
+                for (var i = 0; i < self.playerlist.count; i++)
+                {
+                    self.playerString += " " + self.playerlist[i] + ","
+                }
+                
+                self.namesLabel.text = self.playerString
             }
+            
         }
         
         socket.on("newUser"){ data, ack in
@@ -184,6 +195,14 @@ class chairViewController: UIViewController {
                 }
                 
                 var check = false
+                
+                self.playerString = ""
+                for (var i = 0; i < self.playerlist.count; i++)
+                {
+                    self.playerString += " " + self.playerlist[i] + ","
+                }
+                
+                self.namesLabel.text = self.playerString
                 
                 for( var i = 0; i < self.playerlist.count; i++){
                     if (self.name == self.playerlist[i])

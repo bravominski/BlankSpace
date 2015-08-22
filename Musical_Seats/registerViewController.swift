@@ -24,8 +24,8 @@ class registerViewController: UIViewController {
             defaults.setObject(textField.text!, forKey: "userName")
             canRegister = false
             textField.text = ""
-            view.endEditing(true)
         }
+        view.endEditing(true)
     }
 
     override func viewDidLoad() {
