@@ -53,9 +53,10 @@ class chairViewController: UIViewController {
         for var i = 0; i < arr.count; i++ {
             arr[i] = 1
         }
-        
+        print("music stopped")
+        print(userCanClick)
         userCanClick = true
-        
+        print(userCanClick)
         ///stop music - pause///////////////////////////////////////////////////
         
         audioPlayer.pause()
@@ -90,7 +91,7 @@ class chairViewController: UIViewController {
     
     @IBAction func chairButton(sender: UIButton) {
         print(sender.tag)
-        
+        print(userCanClick)
         if userCanClick
         {
             if arr[sender.tag] == 1 {
@@ -139,10 +140,10 @@ class chairViewController: UIViewController {
         socket.on("userList"){ data, ack in
             if let d = data{
                 self.playerlist = d[0] as! [String]
-                self.playerString = ""
+                self.playerString = "Player List: "
                 for (var i = 0; i < self.playerlist.count; i++)
                 {
-                    self.playerString += " " + self.playerlist[i] + ","
+                    self.playerString += " " + self.playerlist[i]
                 }
                 
                 self.namesLabel.text = self.playerString
