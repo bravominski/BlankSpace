@@ -18,18 +18,16 @@ class chairViewController: UIViewController {
     var volume: Float = 0.0
     var playerString = ""
     
-    let socket = SocketIOClient(socketURL: "https://blooming-cliffs-5704.herokuapp.com/")
+    let socket = SocketIOClient(socketURL: "https://blooming-cliffs-5704.herokuapp.com")
     var name = ""
     var userCanClick = false
     var arr = [0,0,0,0,0,0,0,0,0,0,0,0]
     var playerlist = [String]()
     
     func playMusic(){
-        print("play Music")
         playSong()
         
         hideAll()
-        print(playerlist)
         for (var i = 0; i < playerlist.count-1; i++)
         {
             chairCollection[i].hidden = false
@@ -133,17 +131,12 @@ class chairViewController: UIViewController {
         
         socket.on("connect") { data, ack in
             print("iOS::WE ARE USING SOCKETS!")
-//            if let d = data {
-//                self.playerlist = d[0] as! [String]
-//            }
             self.socket.emit("userList")
         }
         
         
         
         socket.on("userList"){ data, ack in
-            print("player lists delivered : ")
-            print(data)
             if let d = data{
                 self.playerlist = d[0] as! [String]
                 self.playerString = ""
@@ -158,8 +151,6 @@ class chairViewController: UIViewController {
         }
         
         socket.on("newUser"){ data, ack in
-            print("player lists delivered : ")
-            print(data)
             if let d = data{
                 self.playerlist = d[0] as! [String]
             }
@@ -167,12 +158,10 @@ class chairViewController: UIViewController {
         
         socket.on("startMusic"){data, ack in	
             self.playMusic()
-            print("music started")
         }
         
         socket.on("stopMusic"){data, ack in
             self.stopMusic()
-            print("music stoppped")
         }
         
         socket.on("chairClicked"){data, ack in
@@ -196,10 +185,10 @@ class chairViewController: UIViewController {
                 
                 var check = false
                 
-                self.playerString = ""
+                self.playerString = "Survivor list of this round:"
                 for (var i = 0; i < self.playerlist.count; i++)
                 {
-                    self.playerString += " " + self.playerlist[i] + ","
+                    self.playerString += " " + self.playerlist[i]
                 }
                 
                 self.namesLabel.text = self.playerString
@@ -220,6 +209,10 @@ class chairViewController: UIViewController {
                 
             }
         
+        }
+        
+        socket.on("reset"){data, ack in
+            self.playerlist = []
         }
         
     }

@@ -12,12 +12,11 @@ var canRegister = true
 
 class registerViewController: UIViewController {
     
-    let socket = SocketIOClient(socketURL: "192.168.1.111:6789")
+    let socket = SocketIOClient(socketURL: "https://blooming-cliffs-5704.herokuapp.com")
 
     @IBOutlet weak var textField: UITextField!
     
     @IBAction func registerButton(sender: UIButton) {
-        print("hello")
         if canRegister {
             socket.emit("newUser", textField.text!)
             let defaults = NSUserDefaults.standardUserDefaults()
@@ -32,7 +31,5 @@ class registerViewController: UIViewController {
         super.viewDidLoad()
         
         socket.connect()
-
-        
     }
 }
