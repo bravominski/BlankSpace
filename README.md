@@ -1,12 +1,14 @@
 # BlankSpace
 
-iOS App that is built to simulate musical chair game :)
-
 Using node server(now deployed on heroku, https://blooming-cliffs-5704.herokuapp.com/)
 
-as DJ, 
+iOS app version of Musical Chairs game. Connected through socket connection to the Node server running in backend,
 
-connected iOS devices can join and play game of musical chair.
+each iOS device will display chairs that are 1 fewer than total number of players. Blank Space, a song by Taylor 
 
-Named it Blank Space because we use Blank Space of Taylor "Swift" as our music!
+“Swift” can be played and stopped by a web app connected to Node server and each round the list of survivors will be 
 
+displayed while readying for next round. Teamed up with 3 other developers. Built Node server with controller web app 
+page, and designed all the socket connections for the app. In charge of testing and debugging on Swift side. 
+
+Technologies used: Swift, Node.js, ExpressJS, AVFoundation-AudioPlayer, SocketIOClient
